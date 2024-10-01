@@ -1,0 +1,74 @@
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+
+  }
+
+  article {
+    font-family: 'Arial', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    padding: 30px;      /* Внешний отступ */
+  }
+
+  nav {
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+}
+
+body {
+    background-color: #d3d3d3; 
+  }
+
+  th {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;      /* Внешний отступ */
+    padding: 10px;     /* Внутренний отступ */
+    border: 2px solid; /* Граница */
+    text-align: center
+
+  }
+
+  td {
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    margin: 20px;      /* Внешний отступ */
+    padding: 20px;     /* Внутренний отступ */
+    border: 2px solid; /* Граница */
+    text-align: center
+  }
+
+  img {
+    margin: 10px;      /* Внешний отступ */
+    padding: 10px;     /* Внутренний отступ */
+    /* Содержимое */
+  }
+
+  table {
+    margin: 10px;      /* Внешний отступ */
+    border: 2px solid; /* Граница */
+    
+  }
+
+  a {
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    margin: 2px;      /* Внешний отступ */
+
+  }
+
+  img {
+    width: 600px;
+    height: 450px;
+    border-radius: 5%;
+
+  }
+
+  .container {
+    max-width: 1440px; /* Максимальная ширина 1440px */
+    margin: 0 auto;    /* Центрирование контента по горизонтали */
+    padding: 0 20px;   /* Добавляем отступы для небольших экранов */
+
+  }
