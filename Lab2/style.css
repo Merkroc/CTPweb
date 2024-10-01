@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Abaddon';
+  src: url(Fonts/ofont.ru_Abaddon.ttf);
+}
+
+@font-face {
+  font-family: 'Bubblez Graffiti';
+  src: url(Fonts/ofont.ru_Bubblez\ Graffiti.ttf);
+}
+
+@font-face {
+  font-family: 'Ireland';
+  src: url(Fonts/ofont.ru_Ireland.ttf);
+}
+
 p {
     font-family: 'Arial', sans-serif;
     font-size: 30px;
@@ -67,8 +82,34 @@ body {
   }
 
   .container {
-    max-width: 1440px; /* Максимальная ширина 1440px */
-    margin: 0 auto;    /* Центрирование контента по горизонтали */
-    padding: 0 20px;   /* Добавляем отступы для небольших экранов */
+    max-width: 1440px; 
+    margin: 0 auto;    
 
+  }
+  
+  .HouseMD p{
+    text-align: center;
+    font-family: Bubblez Graffiti;
+
+  }
+
+  .BreakingBad p {
+    text-align: left;
+    font-family: Abaddon;
+
+  }
+
+  .DoctorWho p {
+    text-align:right;
+    font-family: Ireland;
+  }
+
+  li a {
+    color: black;
+    text-decoration: none;
+
+  }
+
+  ul {
+    list-style:none; 
   }
