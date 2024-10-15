@@ -1,0 +1,117 @@
+form {
+    max-width: 1400px;
+    padding: auto;
+    margin: 0 auto;
+}
+
+article{
+    font-weight: bold;
+    color: crimson ;
+    font-size: 52px;
+    text-align: center;
+}
+
+header article {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+body {
+    background-color: bisque;
+
+}
+
+.personal_questions label{
+    font-size: 32px;
+}
+
+.personal_questions fieldset {
+    border-color: blueviolet;
+
+}
+
+input {
+    height: 25px;
+    font-size: 30px;
+    text-align: left;
+    margin: 15px;
+}
+
+
+ul {
+    list-style:none; 
+}
+
+li{
+    font-size: 30px;
+}
+
+legend {
+    font-size: 30px;
+}
+
+#input5 {
+    cursor: crosshair; height:50px; width:180px; 
+}
+
+.fileuploader {cursor: crosshair; height:30px; width:100px; 
+    position:relative; top:0; right:0; }
+
+.sbea_questions {
+    margin: 15px;
+}
+
+.sbea_questions label {
+    font-size: 28px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.sbea_questions .firstquestion {
+    align-content: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.SBEA_Mosqito label {
+    display: block; /* Каждая метка будет на новой строке */
+    margin-bottom: 5px; /* Отступ между радиокнопками */
+  }
+
+  .sbea_questions input[type="radio"] {
+    margin: 5px;
+    text-align: left;
+    margin-right: 5px; /* Отступ между кнопкой и текстом */
+    vertical-align: middle; /* Выравнивание по вертикали */
+    align-content: start;
+}
+
+.personal_questions input[type="checkbox"] {
+    font-size: 24px;
+}
+
+.sbea_questions label {
+    font-size: 32px;
+}
+
+.solution input{
+    width: none;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.sbea_general{
+    border-color: rgb(36, 233, 131);
+}
+
+.firstquestion {
+    border-color: rgb(36, 80, 239);
+
+}
+
+.secondquestion {
+    border-color: chocolate;
+}

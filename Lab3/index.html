@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>СБЭУ анкета</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<div class="container">
+  <body>
+    <form action="" method="">
+    <header>
+        <article>СБЭУ</article>
+    </header>
+
+    <main>
+      
+      <div class="personal_questions">
+        <fieldset>
+          <legend>Информационная часть</legend>
+        <ul>
+        <li><label>Ваше имя<input id="input1" required></label></li>
+        <li><label>Ваша почта<input id="input2" type="email" в
+          x-moz-errormessage="Чет это не похоже на почту настоящено кандидата в СБЭУ" required></label></li>
+        <li><label>Телефон<input id="input3" type="tel" required></label></li>
+        <li><label>Пароль<input id="input4" type="password" minlength="6"  
+          x-moz-errormessage="У настоящих СБЭУ минимальная длина пароля 6 символов." required></label></li>
+        <li><label>Фото профиля<input class="fileuploader" id="input5" type="file" accept="image/png, image/jpeg" required></label></li>
+        <li><input type="checkbox" required>Мне 18 лет и более</li>
+    </ul>
+  </fieldset>
+      </div>  
+
+      <div class="sbea_questions">
+        <fieldset class="sbea_general">
+          <legend>СБЭУ вопросы</legend>
+        <fieldset class="firstquestion">
+          <legend>Как вы относитесь к СБЭУ комару?</legend>
+          <div class="SBEA_Mosqito">
+              <label><input type="radio" name="sbea_Mosqito">Крайне положительно</label>
+              <label><input type="radio" name="sbea_Mosqito">Крайне отрицательно</label>
+              <label><input type="radio" name="sbea_Mosqito">Являюсь СБЭУ комаром</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="secondquestion">
+            <legend>В какой ЧВК вы состоите?</legend>
+            <div class="SBEA_fraction">
+                <label><input type="radio" name="sbea_fraction">USEC</label>
+                <label><input type="radio" name="sbea_fraction">BEAR</label>
+              </div>
+            </fieldset>
+        </fieldset>
+      </div>
+      <div class="solution">
+        <input type="submit">
+        <input type="reset">
+      </div>
+    </main>
+  </form>
+  </body>
+</div>
+</html>
