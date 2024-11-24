@@ -9,10 +9,8 @@ var isSoundOn = false; // Переменная для отслеживания �
 document.getElementById('showImageButton').addEventListener('click', function() {
     if (isSoundOn) {
         audio.pause(); // Остановить звук
-        this.textContent = 'Включить звук'; // Изменить текст кнопки
     } else {
         audio.play(); // Включить звук
-        this.textContent = 'Выключить звук'; // Изменить текст кнопки
     }
     isSoundOn = !isSoundOn; // Переключить состояние
 });
