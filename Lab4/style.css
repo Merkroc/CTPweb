@@ -21,9 +21,9 @@ margin: 0;
 
 @keyframes vibrate {
 0% { transform: translateX(0)  }
-25% { transform: translateX(32px) }
-50% { transform: translateX(-32px) }
-75% { transform: translateX(32px) }
+25% { transform: translateX(3200px) }
+50% { transform: translateX(-320px) }
+75% { transform: translateX(3200px) }
 100% { transform: translateX(0) }
 }
 
@@ -31,7 +31,7 @@ button {
 margin: 50px;
 font-size: 52px;
 background-color: red;
-animation: vibrate 0.2s infinite;
+animation: vibrate 0.01s infinite;
 
 }
 
@@ -75,7 +75,7 @@ width: 50px;
 height: 50px;
 background-color: red;
 border-radius: 100%;
-animation: bounce 10s linear infinite;
+animation: bounce 230s linear infinite;
 }
 
 @keyframes bounce {
