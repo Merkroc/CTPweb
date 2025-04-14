@@ -14,7 +14,7 @@ const personalMovieDB = {
 // 3, 4)
 for (let i = 0; i < 2; i++) {
   let lastFilm = prompt('Один из последних просмотренных фильмов?', '');
-  while (lastFilm === '' || lastFilm === null || lastFilm.length > 50)
+  while (!lastFilm || lastFilm.length > 50)
   {
     alert('Некорректный ввод! Название фильма не должно быть пустым и длиннее 50 символов.');
     lastFilm = prompt('Один из последних просмотренных фильмов?', '');
