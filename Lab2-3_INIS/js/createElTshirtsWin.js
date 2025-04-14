@@ -83,18 +83,16 @@ export function createElements() {
        inner: colors[i],
    });
 
-   btnColor.style.backgroundColor = colors[i];
-           btnColor.style.color = 'black';
-           btnColor.addEventListener('click', () => {
-               bigImg.src = `../${selectedShirt.colors[colors[i]].front}`;
-               selectedShirt.curcolor = colors[i];
-           });
+    btnColor.style.backgroundColor = colors[i];
+    btnColor.style.color = 'black';
+    btnColor.addEventListener('click', () => {
+        bigImg.src = `../${selectedShirt.colors[colors[i]].front}`;
+        selectedShirt.curcolor = colors[i];
+    });
 
    bigColor.append(btnColor);
    }
    
-
-
    const bigImg = createElement({
        elementName: 'img',
        className: 'big-img',
@@ -104,5 +102,4 @@ export function createElements() {
        bigImg.src = `../${selectedShirt.default.front}`;
    } else bigImg.src = `../${selectedShirt.default.back}`;
    bigShirtsCard.append(bigImg);
-
 }
